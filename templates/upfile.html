@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>上传缩略图</title>
+		<link rel="stylesheet" type="text/css" href="../style/admin.css"/>
+		<script src="../js/admin_top_nav.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body id="main">
+		<form action="../config/upload.php" method="post" enctype="multipart/form-data" style="text-align: center; margin: 30px;">
+			<input type="hidden" name="MAX_FILE_SIZE" value="2048000"/>
+			<input type="file" name="pic" />
+			<input type="submit" value="确定上传" name="send"/>
+		</form>
+	</body>
+</html>

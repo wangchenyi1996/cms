@@ -1,0 +1,182 @@
+#details{
+	width: 690px;
+	min-height: 600px;
+	float: left;
+	margin: 0 0 10px 0;
+}
+#details h2{
+	border:1px solid #ccc;
+}
+#details h2 a{
+	color: #360;
+	text-decoration: none;
+}
+#details h2 a:hover{
+	color: #FF6600;
+}
+#details h3{
+	text-align: center;
+	color: #666;
+	padding: 20px 0 0 0;
+	font-size: 20px;
+}
+#details div.d1{
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+#details div.d2{
+	text-align: center;
+	padding: 10px;
+	background: #ffffee;
+	border: solid #ccc 1px;
+	line-height: 150%;
+}
+#details div.d3{
+	padding: 15px 10px;
+	line-height: 250%;
+	text-align: center;
+}
+#details div.d4{
+	padding: 8px;
+	border: #ccc dashed 1px;
+}
+#details div.d6{
+	margin: 10px 0 0 0;
+}
+#details div.d6 h2 a{
+	float:right;
+	padding-right: 10px;
+	color: #666;
+}
+
+#details div.d6 dl{
+	width: 670px;
+	margin: 10px;
+	border-bottom:1px dashed #ccc;
+	float: left;
+}
+#details div.d6 dl dt{
+	float: left;
+}
+#details div.d6 dl dt img{
+	width: 80px;
+	height: 80px;
+}
+#details div.d6 dl dd{
+	padding: 0 0 10px 10px ;
+	float: right;
+	width: 580px;
+}
+#details div.d6 dl dd.info{
+	font-size: 16px;
+	line-height: 150%;
+}
+#details div.d6 dl dd.button{
+	text-align: right;
+}
+
+#details div.d6 dl dd em{
+	float: right;
+	font-style: normal;
+}
+
+#details div.d5{
+	margin: 10px 0;
+	padding: 8px;
+	border: #ccc solid 1px;
+}
+#details div.d5 p{
+	margin: 10px 0;
+}
+#details div.d5 p.red{
+	color: orangered;
+	font-weight: bold;
+}
+#details div.d5 p input.text{
+	width: 80px;
+	height: 20px;
+	border: #ccc dashed 1px;
+}
+#details div.d5 p input.submit{
+	width: 80px;
+	height: 24px;
+	cursor: pointer;
+}
+#details div.d5 p img.code{
+	width: 78px;
+	height: 30px;
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+}
+
+#details div.d5 p textarea{
+	width: 650px;
+	height: 150px;
+	background: #FFFFEE;
+	border: #C7C78F dashed 1px;
+}
+
+#sidebar{
+	width: 260px;
+	min-height: 600px;
+	float: right;
+	margin: 0 0 10px 0;
+}
+#sidebar div.nav{
+	border: #ccc solid 1px;
+	text-align: center;
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+}
+#sidebar div.nav span{
+	padding: 5px 0 0 0;
+	display: inline-block;
+}
+#sidebar div.nav strong{
+	width: 110px;
+	height: 25px;
+	line-height: 25px;
+	border: #ccc solid 1px;
+	display: inline-block;
+	margin: 5px 0 0 0;
+}
+#sidebar div.nav strong a{
+	color: #666;
+	text-decoration: none;
+	font-weight: normal;
+	display: inline-block;
+	width: 110px;
+	height: 25px;
+	background: #EEF3F7;
+}
+#sidebar div.nav strong a:hover{
+	color: #ccc;
+}
+#sidebar div.right{
+	border: 1px solid #ccc;
+	margin: 0 0 10px 0;
+}
+#sidebar div.right ul{
+	padding: 2px 10px 0 10px;
+}
+#sidebar div.right ul li{
+	height: 23px;
+	line-height: 23px;
+	background: url(../image/pointer.png)no-repeat left center;
+	padding: 0 0 0 10px;
+}
+#sidebar div.right ul li em{
+	float: right;
+	font-style: normal;
+	font-family: tahoma;
+}
+#sidebar div.right ul li a{
+	color: #666;
+	text-decoration: none;
+}
+#sidebar div.right ul li a:hover{
+	color: #333;
+	text-decoration: underline;
+}

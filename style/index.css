@@ -1,0 +1,364 @@
+#user{
+	width: 268px;
+	height: 398px;
+	float: right;
+	margin:0 0 10px 0;
+	border: #CCCCCC solid 1px;
+}
+#user form{
+	
+}
+#user form p{
+	text-align: center;
+	padding: 5px 0;
+	position: relative;
+	top: -15px;
+}
+#user form p a{
+	text-decoration: none;
+	color: green;
+}
+#user form p a:hover{
+	text-decoration: underline;
+	color: orangered;
+}
+#user form p input.submit{
+	width: 45px;
+	height: 20px;
+	cursor: pointer;
+	font-size: 12px;
+}
+#user div.a{
+	width: 80%;
+	margin: 10px auto;
+	background: #fffffc;
+	border: solid 1px #ccc;
+	height: 22px;
+	line-height: 22px;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+}
+#user div.a strong{
+	color: #F65D20;
+}
+#user div.b{
+	width: 70%;
+	margin: 0 auto;
+	padding: 16px 0 0 0;
+	height: 85px;
+}
+#user div.b img{
+	width: 65px;
+	height: 65px;
+	display: block;
+	float: left;	
+}
+#user div.b a{
+	display: block;
+	float: right;
+	width: 80px;
+	padding: 6px 0 0 0;
+	color: green;
+	letter-spacing: 2px;
+}
+#user h3{
+	font-size: 12px;
+	padding: 8px 10px;
+	clear: both;
+}
+#user h3 span{
+	color: #333;
+}
+#user form label.yzm{
+	position: relative;
+}
+#user form img{
+	width: 78px;
+	height: 30px;
+	position: relative;
+	top: -28px;
+	left: 160px;
+	cursor: pointer;
+	
+}
+#user form label{
+	display: block;
+	padding: 6px 0 2px 12px;
+}
+#user form label input.text{
+	width: 180px;
+	height: 20px;
+	border: #666666 solid 1px;
+	background: #eee;
+}
+#user form label input.code{
+	width: 90px;
+}
+#user dl{
+	position: relative;
+	width: 72px;
+	float: left;
+	padding: 2px 0 0px 15px
+}
+#user dl dd{
+	padding: 5px;
+	text-align: center;
+}
+#user dl dt img{
+	width: 65px;
+	height: 65px;
+	display: block;
+}
+#news{
+	width: 378px;
+	height: 398px;
+	border: #ccc solid 1px;
+	float: right;
+	margin:0 10px 10px 0;
+	padding: 0 10px;
+}
+#news h3{
+	text-align: center;
+	color: #333;
+	padding: 10px;
+	font-size: 16px;
+}
+#news h3 a{
+	color: #333;
+	text-decoration: none;
+}
+#news h3 a:hover{
+	color: #ccc;
+}
+#news p{
+	line-height: 150%;
+}
+#news p a{
+	color: #333;
+	text-decoration: none;
+}
+#news p a:hover{
+	text-decoration: underline;
+}
+#news p.link {
+	color:green;
+	padding:4px 0;
+	border-bottom:1px dashed #999;
+}
+#news p.link a {
+	color:green;
+	display:inline-block;
+	padding:0 0 5px 0;
+}
+#news ul{
+	padding: 5px 3px 0 3px;
+}
+#news ul li{
+	height: 23px;
+	line-height: 23px;
+	background: url(../image/pointer.png)no-repeat left center;
+	padding: 0 0 0 10px;
+}
+#news ul li em{
+	float: right;
+	font-style: normal;
+	font-family: tahoma;
+}
+#news ul li a{
+	color: #666;
+	text-decoration: none;
+}
+#news ul li a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+#pic{
+	width: 270px;
+	height: 195px;
+	float: left;
+	margin:0 0 10px 0;
+}
+#pic img{
+	display: block;
+	border: #CCCCCC solid 1px;
+}
+#rec{
+	width: 268px;
+	height: 193px;
+	float: left;
+	margin:0 0 10px 0;
+	border: #ccc solid 1px;
+}
+#rec ul{
+	padding: 2px 10px 0 10px;
+}
+#rec ul li{
+	height: 23px;
+	line-height: 23px;
+	background: url(../image/pointer.png)no-repeat left center;
+	padding: 0 0 0 10px;
+}
+#rec ul li em{
+	float: right;
+	font-style: normal;
+	font-family: tahoma;
+}
+#rec ul li a{
+	color: #666;
+	text-decoration: none;
+}
+#rec ul li a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+#sidebar-right{
+	width: 270px;
+	height: 835px;
+	float: right;
+	margin:0 0 10px 0;
+}
+#sidebar-right div.adver{
+	width: 270;
+	height: 200px;
+	margin:0 0 10px 0;
+}
+#sidebar-right div.adver img{
+	display: block;
+}
+#sidebar-right div.hot,#sidebar-right div.comm,#sidebar-right div.vote{
+	border: #CCCCCC solid 1px;
+	height: 200px;
+	margin: 0 0 10px 0;
+}
+#sidebar-right div.vote{
+	margin: 0;
+}
+#sidebar-right div.vote h3{
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	color: #369;
+	border-bottom: #666666 dashed 1px;
+	width: 75%;
+	margin: 5px auto;
+}
+#sidebar-right div.vote form label{
+	display: block;
+	padding: 5px 0 0 20px;
+}
+#sidebar-right div.vote form p{
+	text-align: center;
+	padding: 5px;
+}
+#sidebar-right div.vote form p input{
+	width: 45px;
+	height: 20px;
+	margin: 0 3px;
+	cursor: pointer;
+	font-size: 12px;
+}
+#sidebar-right ul{
+	padding: 3px 10px 0 10px;
+}
+#sidebar-right ul li{
+	height: 23px;
+	line-height: 23px;
+	background: url(../image/pointer.png)no-repeat left center;
+	padding: 0 0 0 10px;
+}
+#sidebar-right ul li em{
+	float: right;
+	font-style: normal;
+	font-family: tahoma;
+}
+#sidebar-right ul li a{
+	color: #666;
+	text-decoration: none;
+}
+#sidebar-right ul li a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+#picnews{
+	width: 678px;
+	height: 198px;
+	border: #CCCCCC solid 1px;
+	float: left;
+	margin:0 0 10px 0;
+}
+#picnews dl{
+	width: 156px;
+	float: left;
+	margin: 10px 0 0 11px;
+}
+#picnews dl dd{
+	padding: 5px;
+	text-align: center;
+}
+#picnews dl dd a{
+	color: #666666;
+	text-decoration: none;
+}
+#picnews dl dd a:hover{
+	color: #f60;
+	text-decoration: underline;
+}
+#picnews dl dt{
+	border: #999 solid 1px;
+	padding: 2px;
+}
+#picnews dl dt img{
+	border: none;
+	display: block;
+}
+#newslist{
+	width: 680px;
+	height: 625px;
+	float: left;
+	margin:0 0 10px 0;
+}
+#newslist div.list{
+	border: #ccc solid 1px;
+	width: 49%;
+	height: 306px;
+	float: left;
+}
+#newslist div.list h2 a{
+	float: right;
+	padding: 0 10px 0 0;
+	color: green;
+	text-decoration: none;
+}
+#newslist div.list h2 a:hover{
+	text-decoration: underline;
+}
+#newslist div.right{
+	float: right;
+}
+#newslist div.bottom{
+	margin: 0 0 10px 0;
+}
+#newslist ul{
+	padding: 8px 10px 0 10px;
+}
+#newslist ul li{
+	height: 23px;
+	line-height: 23px;
+	background: url(../image/arror.png)no-repeat left center;
+	padding: 0 0 0 10px;
+}
+#newslist ul li em{
+	float: right;
+	font-style: normal;
+	font-family: tahoma;
+}
+#newslist ul li a{
+	color: #666;
+	text-decoration: none;
+}
+#newslist ul li a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+

@@ -1,0 +1,34 @@
+#cast{
+	margin: 0 0 10px 0;
+	border:1px solid #ccc;
+}
+#cast h2{
+	
+}
+#cast h2 a{
+	color: #360;
+	text-decoration: none;
+}
+#cast h2 a:hover{
+	color: #FF6600;
+}
+#cast table{
+	width: 80%;
+	margin: 10px auto;
+	background:#eee;
+}
+#cast table caption{
+	font-size: 22px;
+	color: #333;
+	padding: 0 0 10px 0;
+}
+#cast table td{
+	padding: 8px;
+	background: #fff;
+	text-align: center;
+}
+#cast table th{
+	padding: 8px;
+	text-align: center;
+	background: #FFFBE3;
+}
